@@ -1,0 +1,69 @@
+
+
+  
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script>
+  $(".ab").keyup(function () {
+    if (this.value.length == this.maxLength) {
+      $(this).next('.ab').focus();
+    }
+});
+</script>
+
+<h2><b>Place Order</b></h2>
+<div class="container h-100">
+  <div class="d-flex justify-content-center h-100">
+      <div class="user_card">
+          <form >
+              <label for="exampleInputPassword1">Gift Card Amount :</label>
+              <div class="form-group">
+                <input type="number" class="form-control" id="rupya" aria-describedby="amount" placeholder="Rupees" style="float:left;width:100px;margin-right: 10px;">
+                <input type="number" class="form-control" id="paisa" aria-describedby="amount" placeholder="Paise" style=" width:100px;margin-right: 10px;">
+              </div>
+              <label for="exampleInputPassword1">Recipient Name</label>
+              <div class="form-group">
+                <input type="text" class="form-control" id="fname" aria-describedby="fname" placeholder="FirstName" style="float:left;width:150px;margin-right: 10px;">
+                <input type="text" class="form-control" id="lname" aria-describedby="lname" placeholder="LastName" style=" width:150px;margin-right: 10px;">
+              </div>
+              <label for="exampleInputPassword1">Address of Recipient:-</label>
+              <div class="user_card_address">
+                  <div class="form-group">
+                      <input type="text" class="form-control" id="address" aria-describedby="address" placeholder="Address" style="float:left;width:420px;margin: 10px;">
+                      <input type="text" class="form-control" id="city" aria-describedby="city" placeholder="City" style="float:left;width:200px;margin: 10px;">
+                      <input type="text" class="form-control" id="state" aria-describedby="state" placeholder="State" style="float:left;width:200px;margin: 10px;">
+                      <input type="text" class="form-control" id="pinCode" aria-describedby="pinCode" placeholder="PIN CODE" style="float:left;width:200px;margin: 10px;">
+                      <input type="text" class="form-control" id="country" aria-describedby="country" placeholder="Country" style="float:left;width:200px;margin: 10px;">   
+                    </div>
+              </div>
+
+              <label for="exampleInputPassword1">Buyer's Name</label>
+              <div class="form-group">
+                <input type="text" class="form-control" id="fname" aria-describedby="fname" placeholder="FirstName" style="float:left;width:150px;margin-right: 10px;">
+                <input type="text" class="form-control" id="lname" aria-describedby="lname" placeholder="LastName" style=" width:150px;margin-right: 10px;">
+              </div>
+              <label for="exampleInputPassword1">Phone Number</label>
+              <div class="form-group">
+                <input type="text" class="form-control ap" id="CC" aria-describedby="CountryCode" placeholder="CC" style="float:left;width:60px;margin-right: 10px;">
+                <input type="text" class="form-control ap" id="Number" maxlength=1  style="float:left;width:40px;">
+                <input type="text" class="form-control ap" id="Number" maxlength=1  style="float:left;width:40px;">
+                <input type="text" class="form-control ap" id="Number" maxlength=1  style="float:left;width:40px;">
+                <input type="text" class="form-control ap" id="Number" maxlength=1 style="float:left;width:40px;">
+                <input type="text" class="form-control ap" id="Number" maxlength=1  style="float:left;width:40px;">
+                <input type="text" class="form-control ap" id="Number" maxlength=1  style="float:left;width:40px;">
+                <input type="text" class="form-control ap" id="Number" maxlength=1  style="float:left;width:40px;">
+                <input type="text" class="form-control ap" id="Number" maxlength=1  style="float:left;width:40px;">
+                <input type="text" class="form-control ap" id="Number" maxlength=1  style="float:left;width:40px;">
+                <input type="text" class="form-control ap" id="Number" maxlength=1  style="float:left;width:40px;"> 
+              </div><br>
+              <label for="exampleInputPassword1">Email</label>
+              <div class="form-group">
+                <input type="text" class="form-control" id="email" aria-describedby="email" placeholder="Email" style="float:left;width:300px;margin-right: 10px;">
+                
+              </div>
+              <br>
+              <br>
+              <button type="submit" class="btn btn-dark" style=" background-color:#56baed">Submit</button>
+            </form>
+      </div>
+  </div>
+</div>
